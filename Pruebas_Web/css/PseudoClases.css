@@ -1,0 +1,22 @@
+body{
+    background-color: blueviolet;
+}
+a:hover{
+    background-color: yellow;
+
+}
+h1{
+    color: red;
+    background-color: green;
+    margin-bottom:20px;
+    margin-top: 20px;
+    padding: 20px;
+    border: 10px solid black;
+    
+}
+#Centrado{
+    text-align: center;
+}
+#ecepcion{
+    border:2px solid white;
+}

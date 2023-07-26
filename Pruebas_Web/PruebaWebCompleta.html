@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina</title>
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+
+<body>
+    <h1>Prueba de lo aprendido en HTML ! ! !</h1>
+    <h3>Se agrega un texto de prueba</h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae inventore ab nihil magni adipisci, ratione
+        architecto quam voluptatibus cupiditate. Quis minus nobis et tempora iusto dolorum praesentium, expedita
+        sapiente ipsa.</p>
+    <br>
+    <h3>Se agrega una imagen</h3>
+    <img src="/imagenes/bobcholo.jpg" width="40px" height="40px" alt="bob cholo">
+    <h3>Texto Escondido</h3>
+    <p title="texto escondido"><u>Coloque el mouse aqui</u></p>
+    <h3>URL del Curso</h3>
+    <a href="https://www.youtube.com/watch?v=o4srpChv-eg&list=PLQxX2eiEaqbw7lsosVOlAcZBqHPEPO5dc&index=12"
+        target="_blank">Curso</a>
+    <h1>Indice</h1>
+    <h4>Conocimientos</h4>
+    <p> <a href="#java"> Java </a></p>
+    <p><a href="#c"> C++ y C </a></p>
+    <p><a href="#web"> html </a></p>
+    <p><a href="#web">Css</a></p>
+    <br>
+    <h1 id="c">Primer semestre </h1>
+    <p>En primer semestre se adquirio conocimientos de la materia de c y c++</p>
+    <br>
+    <h1 id="java">Segundo Semestre</h1>
+    <p>En segundo semestre se adquirio conocimientos de java y programacion orientada a objetos, de igual manera 
+        en el lenguaje de java 
+    </p>
+    <br>
+    <h1>Tercer semestre</h1>
+    <p>En tercer semestre se tuvo la materia de Estructura de Datos, en esta materia 
+        de igual manera se programo en el lenguaje de Java
+    </p>
+    <br>
+    <h1 id="web">Cuarto semestre</h1>
+    <p>En este semestre se estan estudiando las bases de programacion web
+        en html y en Css
+    </p>
+    <br>
+    <table border="10">
+        <tr>
+            <tr>
+                <th>Nombre</th>
+                <th>Apellido P</th>
+                <th>Apellido M</th>
+                <th>edad</th>
+            </tr>
+            <td>Saul</td>
+            <td>Hidalgo</td>
+            <td>Arcos</td>
+            <td>23 años</td>
+        </tr>
+    </table>
+    <ul>
+        <h1>Lenguajes de Programacion que tiene conocimientos</h1>
+        <li>Java</li>
+        <li>C</li>
+        <li>C++</li>
+        <li>html</li>
+        <li>Css</li>
+    </ul>
+    <h1>Se agrega un Formulario</h1>
+    <form action="pruebasTablas.html" method="post">
+        <p><label for="nombre">Nombre: <input type="text"></label></p>
+        <p><label for="apellidoP">Apellido Paterno <input type="text"></label></p>
+        <p><label for="edad">Edad <select>
+            <option value="15">15 años</option>
+            <option value="16" selected>16 años</option>
+            <option value="17">17 años</option>
+            <option value="18">18 años</option>
+        </select></label></p>
+        <p><label for="observacion">Objervaciones <textarea name="" id="" cols="30" rows="10"></textarea></label></p>
+        <button type="submit">Enviar</button>
+    </form>
+</body>
+
+</html>
